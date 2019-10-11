@@ -2,13 +2,20 @@
 
 ## MVP
 
-- [ ] **write unit tests and the implementation code** for a React application for _Baseball Stadium_ personnel.
 - [ ] Display Component - show the number of Balls, Strikes, and Fouls
-- [ ] Dashboard Component - buttons to increase Balls, Strikes, Fouls, and Hits.
+- [ ] Dashboard Component - buttons to increase Balls, Strikes, and Fouls.
+- [ ] **write unit tests and the implementation code** for a React application for _Baseball Stadium_ personnel.
 
 **For the MVP you only need to record information about a player's _"at bat"_**.
 
-### Count Rules
+---------------------
+
+## Count Rules
+<!-- #### For the Sport Illiterate -->
+    - Ball === when the pitcher throws/pitches the ball outside the "pitch zone"/acceptable area.
+    - Strike === When the hitter swings the bat and misses
+    - Foul === when the hitter hits the ball and the ball goes out of bound
+    - hit === when the hitter hits the ball and ball is in bounds, and ball lands on the ground or is out of the playing field.
 
 - balls and strikes reset to 0 when a player reaches 3 strikes or 4 balls.
 - balls and strikes reset to 0 when a `hit` is recorded.
@@ -26,6 +33,14 @@
 - changes recorded on this component should update the information shown by the `Display` component.
 
 Feel free add other components and organize and name your components any way you want to satisfy the requirements. **Make it up and make it happen developer!**.
+
+## Testing
+- [ ] install `jest-dom` `react-testing-library`
+- [ ] use Jest testing
+- [ ] use React Testing Library
+- [ ] implement at least 5 tests each
+
+-------------------------
 
 ## Stretch
 
