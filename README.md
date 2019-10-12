@@ -35,7 +35,7 @@
 Feel free add other components and organize and name your components any way you want to satisfy the requirements. **Make it up and make it happen developer!**.
 
 ## Testing
-- [ ] install `jest-dom` `react-testing-library`
+- [ ] Install @testing-library/jest-dom and @testing-library/react
 - [ ] use Jest testing
 - [ ] use React Testing Library
 - [ ] implement at least 5 tests each
